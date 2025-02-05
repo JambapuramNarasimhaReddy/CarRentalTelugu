@@ -7,6 +7,7 @@ def lambda_handler(event, context):
     print(event)
     print("task Update")
     print("Sample Update")
+    print("Update 3")
     return {
         "statusCode": 200,
         "body": json.dumps({
